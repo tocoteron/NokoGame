@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ScoreController">
+	<children>
+		<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+			<children>
+				<ImageView fitHeight="600.0" fitWidth="799.0" layoutY="-1.0">
+					<image>
+						<Image url="@images/yama_fukei.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="569.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/takenoko.png" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/kinoko.png" />
+					</image>
+				</ImageView>
+            <ImageView fitHeight="135.0" fitWidth="405.0">
+               <image>
+                  <Image url="@images/result.png" />
+               </image>
+            </ImageView>
+				<Button fx:id="Continue" layoutX="140.0" layoutY="492.0" mnemonicParsing="false" onAction="#ContinueButtonAction" prefHeight="69.0" prefWidth="139.0" text="Continue">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="Quit" layoutX="505.0" layoutY="492.0" mnemonicParsing="false" onAction="#QuitButtonAction" prefHeight="69.0" prefWidth="139.0" text="Quit">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="kinoko_score_label" layoutX="239.0" layoutY="164.0" prefHeight="157.0" prefWidth="190.0" text="33" textAlignment="CENTER" textFill="#c0ff00">
+               <font>
+                  <Font name="Bodoni MT" size="120.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="kinoko_winner" fitHeight="150.0" fitWidth="300.0" layoutX="14.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/winner.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="takenoko_winner" fitHeight="150.0" fitWidth="300.0" layoutX="494.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/winner.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="takenoko_score_label" alignment="CENTER_RIGHT" layoutX="362.0" layoutY="164.0" prefHeight="157.0" prefWidth="190.0" text="4" textAlignment="CENTER" textFill="#c0ff00">
+               <font>
+                  <Font name="Baskerville Old Face" size="120.0" />
+               </font>
+            </Label>
+			</children>
+		</AnchorPane>
+	</children>
+</VBox>
