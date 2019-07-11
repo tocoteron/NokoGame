@@ -164,14 +164,6 @@ public class Game extends Application
 								});
 							}
 						}).start();
-						/*
-						int computerRow = computerPos % ROW_COUNT;
-						int computerCol = computerPos / ROW_COUNT;
-						tryPutSquareSprite(squareSprites, bombPowers, surroundingBombCounts, computerRow, computerCol, true);
-						squareSpritesForComputer = deepCopy2DArrayForSquareSprite(squareSprites);
-						bombPowersForComputer = deepCopy2DArrayForInt(bombPowers);
-						surroundingBombCounts = deepCopy2DArrayForInt(surroundingBombCounts);
-						*/
 					}
 				}
 
