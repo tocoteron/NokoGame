@@ -7,6 +7,9 @@ There are some bombs, and they will explode if they are stepped on.
 So, this is exciting game.
 Get the win.
 
+![menu_image](./screenshots/menu.png)
+![game_image](./screenshots/game.png)
+
 ## Getting Started
 ### Prerequisites
 This project requires Java 8.
