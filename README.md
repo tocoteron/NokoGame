@@ -7,6 +7,8 @@ There are some bombs, and they will explode if they are stepped on.
 So, this is exciting game.
 Get the win.
 
+SlideShare(Detail): [https://www.slideshare.net/TenTokoro/noko-game](https://www.slideshare.net/TenTokoro/noko-game)
+
 ![menu_image](./screenshots/menu.png)
 ![game_image](./screenshots/game.png)
 
