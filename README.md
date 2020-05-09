@@ -14,7 +14,7 @@ SlideShare(Detail): [https://www.slideshare.net/TenTokoro/noko-game](https://www
 
 ## Getting Started
 ### Prerequisites
-This project requires Java 8.
+This project requires Java 8(includes JavaFX).
 ```
 $java -version
 java version "1.8.0_192"
